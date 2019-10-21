@@ -1,4 +1,4 @@
-package com.d2_webdriver_basics;
+package com.cybertek.tests.d2_webdriver_basics;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
@@ -14,14 +14,18 @@ public class CloseAndQuit {
 //        Thread.sleep(1000);
 //        // close() --> close the current tab/window
 //        driver.close();
+//
+//        //
+//        driver = new ChromeDriver();
 
         // TODO close one tab out of two tabs
         driver.get("http://practice.cybertekschool.com/open_new_tab");
         Thread.sleep(5000);
-        driver.close();
+//        driver.close();
 
         // TODO close all open tab
-
+        // close all open windows and tabs and everything else ok
+        driver.quit();
 
 
     }

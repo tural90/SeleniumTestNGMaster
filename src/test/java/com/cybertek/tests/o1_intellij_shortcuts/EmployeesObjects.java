@@ -1,4 +1,4 @@
-package com.o1_intellij_shortcuts;
+package com.cybertek.tests.o1_intellij_shortcuts;
 
 public class EmployeesObjects {
 
