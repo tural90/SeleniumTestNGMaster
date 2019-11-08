@@ -1,28 +1,22 @@
-package com.cybertek.tests.d4_basic_locators;
+
+
+package com.cybertek.tests.d5_xpath;
 
 import com.cybertek.utilities.WebDriverFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-public class IdLocatorTest {
+public class XpathTestDemoClass {
     public static void main(String[] args) {
         WebDriver driver = WebDriverFactory.getDriver("chrome");
         driver.manage().window().maximize();
-
         driver.get("http://practice.cybertekschool.com/multiple_buttons");
 
-        WebElement element = driver.
-                findElement(
-                        By.id("disappearing_button"));
+        WebElement link = driver.findElement(By.xpath("//*[contains(text(), 'tek Sch')]"));
 
-        String txt = element.getText();
-        System.out.println("txt = " + txt);
-
-        element.click();
-
-        driver.quit();
-
+        System.out.println(link.getText());
 
     }
+
 }
