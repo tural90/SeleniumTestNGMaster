@@ -1,4 +1,4 @@
-package com.cybertek.tests.o1_intellij_shortcuts;
+package com.cybertek.tests.d7_types_of_elements;
 
 import com.cybertek.utilities.WebDriverFactory;
 import org.openqa.selenium.By;
