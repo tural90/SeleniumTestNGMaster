@@ -8,7 +8,11 @@ import org.openqa.selenium.WebElement;
 public class ClassLocatorTest {
 
     public static void main(String[] args) {
+
+        //                  class.static
         WebDriver driver = WebDriverFactory.getDriver("chrome");
+
+
         driver.manage().window().maximize();
         driver.get("http://practice.cybertekschool.com/sign_up");
 

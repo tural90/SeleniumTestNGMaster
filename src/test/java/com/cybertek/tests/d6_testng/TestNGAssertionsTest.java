@@ -13,6 +13,7 @@ public class TestNGAssertionsTest {
         Assert.assertEquals("one", "two");
 
         System.out.println("second assertion");
+
         Assert.assertEquals(1, 1);
 
     }
