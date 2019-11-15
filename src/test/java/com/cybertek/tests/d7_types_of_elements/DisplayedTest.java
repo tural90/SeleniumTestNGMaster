@@ -27,5 +27,8 @@ public class DisplayedTest {
         Assert.assertTrue(blue.isDisplayed());
 
 
+
+
+
     }
 }
