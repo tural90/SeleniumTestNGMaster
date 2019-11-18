@@ -36,7 +36,7 @@ public class PopupAndAlerts {
 
 
     @Test
-    public void jsALerts(){
+    public void jsALerts() {
         driver.get("http://practice.cybertekschool.com/javascript_alerts");
         // trigger the alert
         driver.findElement(By.xpath("//button[1]")).click();
@@ -65,9 +65,6 @@ public class PopupAndAlerts {
 
 
 //        ?? BREAK
-
-
-
 
 
     }
