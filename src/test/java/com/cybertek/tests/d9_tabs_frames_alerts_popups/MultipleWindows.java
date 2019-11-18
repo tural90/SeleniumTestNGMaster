@@ -77,8 +77,6 @@ public class MultipleWindows {
             }
         }
 
-        System.out.println(driver.getTitle());
-
     }
 
 }
