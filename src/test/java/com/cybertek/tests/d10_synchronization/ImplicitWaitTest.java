@@ -18,7 +18,7 @@ public class ImplicitWaitTest {
     public void setupMethod() {
         driver = WebDriverFactory.getDriver("chrome");
         driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(365000, TimeUnit.DAYS );
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS );
     }
 
     @AfterMethod
@@ -29,7 +29,7 @@ public class ImplicitWaitTest {
     @Test
     public void test1()  {
         driver.get("http://practice.cybertekschool.com/dynamic_loading/4");
-        System.out.println(driver.findElement(By.id("finish")).getText());
+        System.out.println(driver.findElement(By.id("fiasdfasfnish")).getText());
     }
 
     @Test
