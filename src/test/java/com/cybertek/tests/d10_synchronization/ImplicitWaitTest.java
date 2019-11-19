@@ -18,7 +18,11 @@ public class ImplicitWaitTest {
     public void setupMethod() {
         driver = WebDriverFactory.getDriver("chrome");
         driver.manage().window().maximize();
+        // wait when trying to find element
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS );
+
+        // wait while the page is loading
+        driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS );
     }
 
     @AfterMethod

@@ -4,13 +4,11 @@ import com.cybertek.utilities.WebDriverFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-
-import java.util.concurrent.TimeUnit;
-
 
 public class ExplicitWaitTests {
 
@@ -39,8 +37,29 @@ public class ExplicitWaitTests {
 
         // Create explicit wait object
         WebDriverWait wait = new WebDriverWait(driver, 10);
-        // actually
+        // actually waits
+        // waiting for the specific element to be visible
+        wait.until(ExpectedConditions.visibilityOf(username));
 
-        username.sendKeys("Bibish (sorry Tural)");
+        // click now that element is bisible
+        username.sendKeys("Luis");
+
     }
+
+    @Test
+    public void test2TobeEnabled(){
+        driver.get("http://practice.cybertekschool.com/dynamic_controls");
+        // click enable
+        driver.findElement(By.cssSelector("button[onclick='swapInput()']")).click();
+        // find the input field
+        WebElement input = driver.findElement(By.cssSelector("input[type='text']"));
+
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+
+        // wait for element to be clickable/enabled
+        wait.until(ExpectedConditions.elementToBeClickable(input));
+        input.sendKeys("Olessya Foxborn");
+
+    }
+
 }
