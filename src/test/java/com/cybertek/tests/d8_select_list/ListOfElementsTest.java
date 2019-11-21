@@ -18,7 +18,7 @@ public class ListOfElementsTest {
 
         List<WebElement> buttons = driver.findElements(By.tagName("button"));
 
-        System.out.println(buttons.size());
+        System.out.println(buttons.size());  //6
 
         Assert.assertEquals(buttons.size(), 6);
 
@@ -26,6 +26,9 @@ public class ListOfElementsTest {
         // print the text of each element
         for (WebElement button: buttons) {
             System.out.println(button.getText());
+            if(button.getText().equals("Button 3")){
+                button.click();
+            }
         }
 
     }

@@ -25,7 +25,7 @@ public class MultipleWindows {
     }
 
 
-    @Test
+    @Test(enabled = false)
     public void switchWindowsTest(){
         driver.get("http://practice.cybertekschool.com/windows");
         System.out.println("Before new window  is opened "+ driver.getTitle());
@@ -58,7 +58,7 @@ public class MultipleWindows {
 
     }
 
-    @Test
+    @Test(description = "verifiying the title ")
     public void changeByTitle(){
         driver.get("http://practice.cybertekschool.com/windows");
         String targetTitle="New Window";
