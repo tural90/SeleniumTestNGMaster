@@ -42,6 +42,23 @@ public class FileUploadTest {
         Assert.assertEquals(actual, "file.txt");
     }
 
+    @Test
+    public void test2(){
+        driver.get("http://practice.cybertekschool.com/upload");
+        String projectPath = System.getProperty("user.dir");
+
+        // location of the file within the project
+        String relativePath = "/src/test/resources/test_file.txt";
+        // location of the file within the project
+        String fullPath = projectPath+relativePath;
+
+        driver.findElement(By.id("file-upload")).sendKeys(fullPath);
+        driver.findElement(By.id("file-submit")).click();
+        String actual = driver.findElement(By.id("uploaded-files")).getText();
+        Assert.assertEquals(actual, "test_file.txt");
+
+    }
+
 
 
 }
