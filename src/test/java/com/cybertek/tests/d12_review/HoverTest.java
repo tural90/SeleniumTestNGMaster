@@ -49,6 +49,7 @@ public class HoverTest {
             WebElement text = driver.findElement(By.xpath(xpath));
 
             System.out.println("Verify element: " + i);
+            System.out.println(text.isDisplayed());
             Assert.assertTrue(text.isDisplayed());
 
 
