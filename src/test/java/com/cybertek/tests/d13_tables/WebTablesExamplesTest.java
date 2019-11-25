@@ -113,6 +113,18 @@ public class WebTablesExamplesTest {
         int rowNumber = getNumberOfRows();
         // get number of columns
         int colNumber = getNumberOfCols();
+
+        // iterates each row in the table
+        for (int i = 1; i <= rowNumber; i++) {
+            // iterate each cell in the row
+            for (int j = 1; j <= colNumber; j++) {
+                // i --> index of tr (row)
+                // j --> index of rd (cell)
+                String xpath = "//table[@id='table1']/tbody/tr[" + i + "]/td[" + j + "]";
+                WebElement cell = driver.findElement(By.xpath(xpath));
+                System.out.println(cell.getText());
+            }
+        }
     }
 
     private int getNumberOfCols() {
@@ -128,6 +140,28 @@ public class WebTablesExamplesTest {
     private int getNumberOfRows() {
         List<WebElement> allRowsExcludingHeaders = driver.findElements(By.xpath("//table[@id='table1']/tbody/tr"));
         return allRowsExcludingHeaders.size();
+    }
+
+
+    @Test
+    public void getSpecificCellByIndex() {
+        // get cell by given indexes
+        int r = 2; // row number
+        int c = 4; // column number
+
+        String xpath = "//table[@id='table1']/tbody/tr[" + r + "]/td[" + c + "]";
+        WebElement cell = driver.findElement(By.xpath(xpath));
+        System.out.println(cell.getText());
+
+    }
+
+    @Test
+    public void getCellInRelationToAnotherCellInSameRow() {
+        // get email of Jason
+        // email is in the 3rd column
+        String name = "Jason";
+        String xpath = "//table[@id=‘table1']//td[.='" + name + "']/../td[3]";
+        System.out.println(driver.findElement(By.xpath(xpath)).getText());
     }
 
 

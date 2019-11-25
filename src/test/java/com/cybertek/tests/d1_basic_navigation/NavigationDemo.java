@@ -26,8 +26,6 @@ public class NavigationDemo  {
         //enter credentila + click login buttn
         //verify that user login successfully
         driver.get("https://qa3.vytrack.com/user/login");
-
-
         driver.findElement(By.id("prependedInput")).sendKeys("user2");
         driver.findElement(By.id("prependedInput2")).sendKeys("UserUser123");
 
