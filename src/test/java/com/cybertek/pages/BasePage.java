@@ -23,7 +23,6 @@ public abstract class BasePage {
     @FindBy(css = "#user-menu > a")
     protected WebElement userName;
 
-
     @FindBy(linkText = "Logout")
     public WebElement logOutLink;
 
@@ -41,7 +40,7 @@ public abstract class BasePage {
     public String getPageSubTitle() {
         //ant time we are verifying page name, or page subtitle, loader mask appears
         waitUntilLoaderScreenDisappear();
-        BrowserUtils.waitForStaleElement(pageSubTitle);
+//        BrowserUtils.waitForStaleElement(pageSubTitle);
         return pageSubTitle.getText();
     }
 
