@@ -24,6 +24,7 @@ public class TestBase {
         url =  ConfigurationReader.get("url");
         driver.get(url);
         actions = new Actions(driver);
+        driver.manage().window().maximize();
     }
 
     @AfterMethod
