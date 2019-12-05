@@ -22,6 +22,11 @@ public class LoginPage {
     public WebElement submit;
 
     public void login(String userNameStr, String passwordStr) {
+<<<<<<< HEAD
+=======
+        userName.sendKeys(asfasfd);
+        password.sendKeys(asdf);
+>>>>>>> 7959975bd24be92c82628b07f70bbca9acd1e479
         submit.click();
     }
 
