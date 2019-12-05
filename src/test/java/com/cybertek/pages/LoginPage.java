@@ -11,14 +11,14 @@ public class LoginPage {
         PageFactory.initElements(Driver.get(), this);
     }
 
-    @FindBy(id="prependedInput")
+    @FindBy(xpath="prependedInput")
     public WebElement userName;
 
 
     @FindBy(id="prependedInput2")
     public WebElement password;
 
-    @FindBy(name = "_submit")
+    @FindBy(css = "_submit")
     public WebElement submit;
 
     public void login(String userNameStr, String passwordStr) {
