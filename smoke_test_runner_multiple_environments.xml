@@ -5,7 +5,7 @@
         <parameter name="env" value="qa1"></parameter>
 
         <classes>
-            <class name="com.cybertek.tests.d17_extent_reports.NegativeLoginTestWithReports"></class>
+            <class name="com.cybertek.tests.d16_pom_2.PageSubtitlesTest"></class>
         </classes>
     </test>
 
@@ -15,7 +15,7 @@
         <classes>
             <class name="com.cybertek.tests.d16_pom_2.PageSubtitlesTest"></class>
         </classes>
-    </test>
+</test>
 
 
 </suite>
