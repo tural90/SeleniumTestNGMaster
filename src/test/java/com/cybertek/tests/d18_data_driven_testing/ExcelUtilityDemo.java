@@ -1,6 +1,7 @@
 package com.cybertek.tests.d18_data_driven_testing;
 
 import com.cybertek.utilities.ExcelUtil;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import java.util.Arrays;
