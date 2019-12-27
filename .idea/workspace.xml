@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a19b41a8-f20a-4326-a7ab-4d91370edb9b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1SFsr038YaZnKKgKO0STUPQzwfc" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Practice">
+    <configuration name="CssLocatorDemoTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.d6_css.CssLocatorDemoTest" />
+      <module name="Summer2019VATESTNGSeleniumProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cybertek.tests.d6_css.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.d4_basic_locators.Practice" />
+      <module name="Summer2019VATESTNGSeleniumProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cybertek.tests.d4_basic_locators.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TagNameLocatorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.d4_basic_locators.TagNameLocatorDemo" />
+      <module name="Summer2019VATESTNGSeleniumProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cybertek.tests.d4_basic_locators.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="XpathTestDemoClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.d5_xpath.XpathTestDemoClass" />
+      <module name="Summer2019VATESTNGSeleniumProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cybertek.tests.d5_xpath.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ImplicitWaitTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Summer2019VATESTNGSeleniumProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cybertek.tests.d10_syncronisation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.d10_syncronisation" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.d10_syncronisation.ImplicitWaitTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Practice" />
+        <item itemvalue="TestNG.ImplicitWaitTest" />
+        <item itemvalue="Application.CssLocatorDemoTest" />
+        <item itemvalue="Application.XpathTestDemoClass" />
+        <item itemvalue="Application.TagNameLocatorDemo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a19b41a8-f20a-4326-a7ab-4d91370edb9b" name="Default Changelist" comment="" />
+      <created>1571170873032</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571170873032</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1577163558141">
+      <screen x="0" y="23" width="1280" height="685" />
+    </state>
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800/-640.-1080.1920.1080@0.0.1280.800" timestamp="1576717980309" />
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800/1280.-791.1920.1080@0.0.1280.800" timestamp="1576898970192" />
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800/566.-1080.1920.1080@0.0.1280.800" timestamp="1577068509838" />
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800/751.-1057.1920.1057@0.0.1280.800" timestamp="1577143095147" />
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800/751.-1080.1920.1080@0.0.1280.800" timestamp="1577158229595" />
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1576767789770" />
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.23.1280.685/1280.-768.1920.1057@0.23.1280.685" timestamp="1576894400512" />
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.23.1280.685/751.-1057.1920.1057@0.23.1280.685" timestamp="1577163558141" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1577163558139">
+      <screen x="0" y="23" width="1280" height="685" />
+    </state>
+    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800/-640.-1080.1920.1080@0.0.1280.800" timestamp="1576717980306" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800/1280.-791.1920.1080@0.0.1280.800" timestamp="1576898970190" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800/566.-1080.1920.1080@0.0.1280.800" timestamp="1577068509836" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800/751.-1057.1920.1057@0.0.1280.800" timestamp="1577143095142" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800/751.-1080.1920.1080@0.0.1280.800" timestamp="1577158229592" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1576767789769" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center/0.23.1280.685/1280.-768.1920.1057@0.23.1280.685" timestamp="1576894400511" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center/0.23.1280.685/751.-1057.1920.1057@0.23.1280.685" timestamp="1577163558139" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1577163558138">
+      <screen x="0" y="23" width="1280" height="685" />
+    </state>
+    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800/-640.-1080.1920.1080@0.0.1280.800" timestamp="1576717980304" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800/1280.-791.1920.1080@0.0.1280.800" timestamp="1576898970189" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800/566.-1080.1920.1080@0.0.1280.800" timestamp="1577068509834" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800/751.-1057.1920.1057@0.0.1280.800" timestamp="1577143095140" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800/751.-1080.1920.1080@0.0.1280.800" timestamp="1577158229591" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1576767789768" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left/0.23.1280.685/1280.-768.1920.1057@0.23.1280.685" timestamp="1576894400506" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left/0.23.1280.685/751.-1057.1920.1057@0.23.1280.685" timestamp="1577163558138" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1577163558140">
+      <screen x="0" y="23" width="1280" height="685" />
+    </state>
+    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800/-640.-1080.1920.1080@0.0.1280.800" timestamp="1576717980307" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800/1280.-791.1920.1080@0.0.1280.800" timestamp="1576898970191" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800/566.-1080.1920.1080@0.0.1280.800" timestamp="1577068509837" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800/751.-1057.1920.1057@0.0.1280.800" timestamp="1577143095145" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800/751.-1080.1920.1080@0.0.1280.800" timestamp="1577158229594" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1576767789769" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right/0.23.1280.685/1280.-768.1920.1057@0.23.1280.685" timestamp="1576894400511" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right/0.23.1280.685/751.-1057.1920.1057@0.23.1280.685" timestamp="1577163558140" />
+    <state x="149" y="39" key="SettingsEditor" timestamp="1577069318621">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="149" y="39" key="SettingsEditor/0.0.1280.800/566.-1080.1920.1080@0.0.1280.800" timestamp="1577069318621" />
+    <state x="34" y="97" key="new project wizard" timestamp="1577158559463">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="34" y="97" key="new project wizard/0.0.1280.800/751.-1080.1920.1080@0.0.1280.800" timestamp="1577158559463" />
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1577069313307">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800/566.-1080.1920.1080@0.0.1280.800" timestamp="1577069313307" />
+  </component>
+</project>

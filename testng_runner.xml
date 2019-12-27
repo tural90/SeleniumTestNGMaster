@@ -1,0 +1,39 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Vytrack automation" verbose="1" >
+    <test name = "Vytrack smoke test">
+        <classes>
+            <class name="com.cybertek.tests.d17_extent_reports.NegativeLoginTestWithReports">
+            <methods><include name="wrongPasswordTest"></include></methods>
+                <!-- exclude method is used to exclude specific tests-->
+            </class>
+        </classes>
+
+
+    </test>
+
+</suite>
+
+        <!--
+        <packages>
+        <package name = "com.cybertek.tests.d16_pom_2">  </package>
+        <package name="com.cybertek.tests.d17_extent_reports"></package>
+        </packages>
+        -->
+
+
+<!-- XML —>  file type used to store and transfer data. It uses html like format, unlike html xml does not have pre defined tags.
+TestNG xml runners —> another of triggering testng tests.
+Create testng xml runner file
+Open intellij
+Right click on the name of project
+New —> File
+Enter name: testng_runner.xml
+OK
+Add this to the first line of the xml file
+    <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+Using testng xml runner we group our tests in different ways and execute them
+
+        -->
+
+
+
